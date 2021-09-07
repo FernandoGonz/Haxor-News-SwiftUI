@@ -8,31 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    // @ObservedObject is for listen when one or more properties is changing and we can get the new value
+    // @ObservedObject subcribes to updates
+    @ObservedObject var networkManager = NetworkManager()
+    
     var body: some View {
         NavigationView {
-            List(posts) { post in
-                // for any post in posts List do:
-                Text(post.title)
+            List(networkManager.posts) { post in
+                HStack {
+                    Text(String(post.points))
+                    Text(post.title)
+                }
             }
             .navigationBarTitle("HAXOR NEWS")
         }
+        .onAppear {
+            self.networkManager.fetchData()
+        }
     }
 }
-
-/** Creating a Post struct with protocol Identifiable */
-/* This protocol allows the list can recognizes the order of our objects. */
-struct Post: Identifiable {
-    // You need an identifier to Identifiable protocol
-    let id: String
-    let title: String
-}
-
-/* Creting a List post of Post struct */
-let posts: [Post] = [
-    Post(id: "1", title: "Hola"),
-    Post(id: "2", title: "Mundo"),
-    Post(id: "3", title: "Bye Mundo")
-]
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

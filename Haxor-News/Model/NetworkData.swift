@@ -9,11 +9,11 @@ import Foundation
 
 struct NetworkData: Codable {
     // you need to name the properties as the same name and type that the JSON data
-    let hits: [Hits]
+    let hits: [Post]
 }
 
 /* Identifiable: this protocol allows the list can recognizes the order of our objects. */
-struct Hits: Codable, Identifiable {
+struct Post: Codable, Identifiable {
     // You need an identifier property to Identifiable protocol
     var id: String { // Calculated variable
         return self.objectID
@@ -21,7 +21,7 @@ struct Hits: Codable, Identifiable {
     let objectID: String
     let title: String
     let points: Int
-    let url: String
+    let url: String?
 }
 
 /* JSON

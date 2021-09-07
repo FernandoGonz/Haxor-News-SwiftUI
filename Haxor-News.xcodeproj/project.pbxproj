@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D86ECCD26E6CDDE00E56C88 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D86ECCC26E6CDDE00E56C88 /* PostModel.swift */; };
 		4DBF512C26E69DA8004504BF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF512B26E69DA8004504BF /* NetworkManager.swift */; };
 		4DBF512E26E69DCC004504BF /* NetworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF512D26E69DCC004504BF /* NetworkData.swift */; };
 		4DD7302126E545A500F212EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7302026E545A500F212EF /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D86ECCC26E6CDDE00E56C88 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		4DBF512B26E69DA8004504BF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		4DBF512D26E69DCC004504BF /* NetworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkData.swift; sourceTree = "<group>"; };
 		4DD7301D26E545A500F212EF /* Haxor-News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Haxor-News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +48,7 @@
 			children = (
 				4DBF512B26E69DA8004504BF /* NetworkManager.swift */,
 				4DBF512D26E69DCC004504BF /* NetworkData.swift */,
+				4D86ECCC26E6CDDE00E56C88 /* PostModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DBF512C26E69DA8004504BF /* NetworkManager.swift in Sources */,
+				4D86ECCD26E6CDDE00E56C88 /* PostModel.swift in Sources */,
 				4DD7302126E545A500F212EF /* AppDelegate.swift in Sources */,
 				4DD7302326E545A500F212EF /* SceneDelegate.swift in Sources */,
 				4DBF512E26E69DCC004504BF /* NetworkData.swift in Sources */,

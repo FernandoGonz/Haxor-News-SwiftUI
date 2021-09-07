@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D65CBA226E7CB67009383F2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D65CBA126E7CB67009383F2 /* DetailView.swift */; };
 		4D86ECCD26E6CDDE00E56C88 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D86ECCC26E6CDDE00E56C88 /* PostModel.swift */; };
 		4DBF512C26E69DA8004504BF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF512B26E69DA8004504BF /* NetworkManager.swift */; };
 		4DBF512E26E69DCC004504BF /* NetworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF512D26E69DCC004504BF /* NetworkData.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D65CBA126E7CB67009383F2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		4D86ECCC26E6CDDE00E56C88 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		4DBF512B26E69DA8004504BF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		4DBF512D26E69DCC004504BF /* NetworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkData.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				4DD7302426E545A500F212EF /* ContentView.swift */,
+				4D65CBA126E7CB67009383F2 /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				4DBF512C26E69DA8004504BF /* NetworkManager.swift in Sources */,
 				4D86ECCD26E6CDDE00E56C88 /* PostModel.swift in Sources */,
 				4DD7302126E545A500F212EF /* AppDelegate.swift in Sources */,
+				4D65CBA226E7CB67009383F2 /* DetailView.swift in Sources */,
 				4DD7302326E545A500F212EF /* SceneDelegate.swift in Sources */,
 				4DBF512E26E69DCC004504BF /* NetworkData.swift in Sources */,
 				4DD7302526E545A500F212EF /* ContentView.swift in Sources */,
